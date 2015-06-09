@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="project_buttons">
+        <item name="android:background">@drawable/color_primary</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:width">@dimen/button_width</item>
+    </style>
+
+</resources>

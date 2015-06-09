@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.bunk3r.appportfolio.activities.ProjectsActivity">
+
+    <LinearLayout
+        android:id="@+id/projects_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:divider="@drawable/divider_vertical"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/projects_container_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/portfolio_title"
+            android:textColor="@color/color_accent"
+            android:textSize="@dimen/font_size_huge" />
+
+        <Button
+            android:id="@+id/spotify_streamer_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startSpotify"
+            android:text="@string/project_title_spotify" />
+
+        <Button
+            android:id="@+id/scores_app_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startScoreApp"
+            android:text="@string/project_title_score" />
+
+        <Button
+            android:id="@+id/library_app_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startLibraryApp"
+            android:text="@string/project_title_library" />
+
+        <Button
+            android:id="@+id/build_bigger_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startBuildBiggerApp"
+            android:text="@string/project_title_build" />
+
+        <Button
+            android:id="@+id/xyz_reader_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startReaderApp"
+            android:text="@string/project_title_reader" />
+
+        <Button
+            android:id="@+id/capstone_button"
+            style="@style/project_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/color_contrast"
+            android:onClick="startCapstoneApp"
+            android:text="@string/project_title_capstone" />
+
+    </LinearLayout>
+
+</ScrollView>

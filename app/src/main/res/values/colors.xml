@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_primary">#F08C35</color>
+    <color name="color_accent">#3F51B5</color>
+    <color name="color_contrast">#CD0E3E</color>
+    <color name="white">#FFFF</color>
+    <color name="transparent">#0000</color>
+
+    <drawable name="transparent">@color/transparent</drawable>
+    <drawable name="color_accent">@color/color_accent</drawable>
+    <drawable name="color_primary">@color/color_primary</drawable>
+    <drawable name="color_contrast">@color/color_contrast</drawable>
+
+</resources>
